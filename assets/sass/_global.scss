@@ -1,0 +1,67 @@
+:root {
+    --bg-body:#272727ff;
+    --sapphire: #2b50aaff;
+    --orchid-crayola: #ff9fe5ff;
+    --orchid-crayola-darken: rgb(216, 104, 186);
+    --pale-pink: #ffd4d4ff;
+    --light-coral: #ff858dff;
+    --light-coral-darken: rgb(211, 80, 88);
+    --platinum:#e6e6e6ff;
+    font-size: 60%;
+}
+
+$body-bg: var(--bg-body);
+$body-color: var(--platinum);
+$font-size-base:1.6rem;
+
+* {
+    font-family: "Nunito";
+    font-weight: 700;
+}
+
+a {
+    color: var(--platinum);
+    transition: all .3s;
+}
+
+a:hover {
+    text-decoration:none !important;
+}
+
+h1,h2,h3 {
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.color-primary {
+    color: var(--light-coral);
+}
+
+body, input, button, textarea
+{
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--color-text-base);
+}
+
+body {
+    background: url("~assets/img/pattern.svg");
+    position: relative;
+}
+
+$primary: #ff9fe5ff;
+$secondary: rgb(211, 80, 88);
+
+
+section.container {
+    min-height: calc(100vh - 60px);
+}
+
+@media (min-width: 700px)
+{
+    :root
+    {
+        font-size: 62.5%;
+    }
+}

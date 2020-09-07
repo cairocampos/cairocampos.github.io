@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -23,6 +24,7 @@
     "file-loader": "^6.1.0",
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
+    "push-dir": "^0.4.1",
     "sass-loader": "^10.0.1",
     "url-loader": "^4.1.0"
   }

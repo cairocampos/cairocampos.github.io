@@ -81,7 +81,7 @@ export default {
 @media(min-width: 800px) {
   .review {
     &__title {
-      font-size: 8rem;
+      font-size: 10rem;
     }
   }
 }

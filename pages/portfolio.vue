@@ -17,6 +17,12 @@
 
 <script>
 export default {
+    head: {
+        title: "Portfólio",
+        meta: [
+        { hid: 'description', name: 'description', content: 'Desenvolvedor Web Front End - VueJS, NuxtJS, Javascript, PHP, Laravel, NodeJS e mais!' }
+        ]
+    },
     data() {
         return {
             introduction: {

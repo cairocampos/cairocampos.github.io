@@ -130,6 +130,18 @@ export default {
         {name:"figma", type:"fab", icon:"figma"},
       ]
     }
+  },
+  head() {
+    return {
+      title: "Sobre",
+      meta: [
+        {
+          hid: "description",
+          name:"description",
+          content: "Desenvolvedor Web Front End - VueJS, NuxtJS, Javascript, PHP, Laravel, NodeJS e mais!"
+        }
+      ]
+    }
   }
 }
 </script>

@@ -77,9 +77,21 @@ body, input, button, textarea
     color: var(--color-text-base);
 }
 
+@keyframes animate {
+    from {
+        background-position: 0 0, 0 0;
+    }
+
+    to {
+        background-position: 100% 0, 100% 0;
+    }
+}
+
 body {
     background: url("~assets/img/pattern.svg");
     position: relative;
+    background-repeat:repeat-x repeat-x;
+    //animation: animate 5s cubic-bezier(0.6, 0.1, 1, 0.4) infinite alternate;
 }
 
 $primary: #ff9fe5ff;

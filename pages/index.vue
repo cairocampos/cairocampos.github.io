@@ -196,9 +196,26 @@ export default {
     display: none;
   }
 
-  @media(max-width:450px) {
-    .review__subtitle {
-      font-size: 20px;
+}
+
+@media(max-width:450px) {
+  .review__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media(max-width:380px) {
+  .review {
+    &__title {
+      font-size: 5rem;
+    }
+    &__subtitle {
+      font-size: 18px;
+    }
+  }
+  .social {
+    &__item {
+      font-size: 4rem;
     }
   }
 }

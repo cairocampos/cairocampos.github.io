@@ -112,7 +112,7 @@ export default {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 800px) {

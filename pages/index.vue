@@ -7,7 +7,7 @@
         Eu sou um desenvolvedor web <strong>front-end</strong>,
         focado em <strong>design moderno</strong>!
         Se precisa dar vida em sua idéia e transformá-la em <strong>negócios</strong>,
-        conte comigo !        
+        conte comigo.      
       </h4>
       <div class="social my-5">
         <a class="social__item" v-for="social in socials" :key="social.name" :href="social.url" target="_blank">
@@ -47,14 +47,6 @@
 
         <div class="icons__item">
           <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vuejs" class="svg-inline--fa fa-vuejs fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="none" d="M356.9 64.3H280l-56 88.6-48-88.6H0L224 448 448 64.3h-91.1zm-301.2 32h53.8L224 294.5 338.4 96.3h53.8L224 384.5 55.7 96.3z"></path></svg>
-        </div>
-
-        <div class="icons__item">
-          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3-alt" class="svg-inline--fa fa-css3-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="none" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"></path></svg>
-        </div>
-
-        <div class="icons__item">
-          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3-alt" class="svg-inline--fa fa-css3-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="none" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"></path></svg>
         </div>
       </div>
     </div>
@@ -158,7 +150,7 @@ export default {
     left: 60px * $i;
     top: 80px * $i; 
     svg {
-      animation-delay: 0.5s * $i;
+      animation-delay: 0.1s * $i;
     }
   }
 }
@@ -202,6 +194,12 @@ export default {
 @media(max-width: 500px) {
   .icons {
     display: none;
+  }
+
+  @media(max-width:450px) {
+    .review__subtitle {
+      font-size: 20px;
+    }
   }
 }
 </style>
